@@ -10,7 +10,7 @@ def my_all?(collection)
   true
 end 
 
-[1, 5, 3]
+[1, 2, 3]
 
 
 # def my_all?(collection)
