@@ -19,7 +19,9 @@ yield('NY')
 def my_any?(collection)
   idx = 0 
   while idx < collection.length 
-    if yield(collection[idx])
+    if yield(collection[idx]) == true 
+      return true
+    end 
   end
 end 
 
