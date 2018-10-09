@@ -10,8 +10,7 @@ def my_all?(collection)
   true
 end 
 
-[1, 2, 3]
-
+['NJ', 'NY', 'London', 'Canada']
 
 # def my_all?(collection)
 #   0.upto(collection.length - 1) do |idx|
