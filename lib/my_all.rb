@@ -10,6 +10,8 @@ def my_all?(collection)
   true
 end 
 
+yield(collection[0])
+
 ['NJ', 'NY', 'London', 'Canada', 'Hawaii']
 
 # starts with "n"
