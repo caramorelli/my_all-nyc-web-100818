@@ -14,7 +14,12 @@ yield('NY')
 
 ['NJ', 'NY', 'London', 'Canada', 'Hawaii']
 
-# Does ______ starts with "n"?
+# Does ______ starts with "n"? 
+
+def my_any?(collection)
+  idx = 0 
+  while idx < collection.length
+end 
 
 # def my_all?(collection)
 #   0.upto(collection.length - 1) do |idx|
