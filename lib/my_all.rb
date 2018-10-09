@@ -3,8 +3,8 @@ require 'pry'
 def my_all?(collection)
   idx = 0 
   while idx < collection.size 
-    ele = collection[idx]
-    return false unless yield(ele) 
+    # ele = collection[idx]
+    return false if yield(collection[idx]) == false
     idx += 1
   end 
   true
