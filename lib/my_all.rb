@@ -21,6 +21,7 @@ def my_any?(collection)
   while idx < collection.length 
     if yield(collection[idx]) == true 
       return true
+      
     end 
   end
 end 
