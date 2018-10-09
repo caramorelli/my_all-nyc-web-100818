@@ -10,11 +10,11 @@ def my_all?(collection)
   true
 end 
 
-yield(collection[0])
+yield('NY')
 
 ['NJ', 'NY', 'London', 'Canada', 'Hawaii']
 
-# starts with "n"
+# Does ______ starts with "n"?
 
 # def my_all?(collection)
 #   0.upto(collection.length - 1) do |idx|
