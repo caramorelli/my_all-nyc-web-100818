@@ -12,6 +12,8 @@ end
 
 ['NJ', 'NY', 'London', 'Canada', 'Hawaii']
 
+# starts with "n"
+
 # def my_all?(collection)
 #   0.upto(collection.length - 1) do |idx|
 #     return false unless yield(collection[idx]) 
