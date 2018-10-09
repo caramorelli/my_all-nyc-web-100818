@@ -4,7 +4,7 @@ def my_all?(collection)
   idx = 0 
   while idx < collection.size 
     ele = collection[idx]
-    return false unless yield(collection[idx]) 
+    return false unless yield(ele) 
     idx += 1
   end 
   true
